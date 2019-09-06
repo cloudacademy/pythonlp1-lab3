@@ -21,7 +21,7 @@ class TestChallenge(unittest.TestCase):
         # tests are specific to system created by cloudformation
         self.assertEqual(traversal_count('/opt/yarn/bin/'), 5)
         self.assertEqual(traversal_count('/usr/share/X11/'), 191)
-        self.assertEqual(traversal_count('/usr/include/X11/', 97))
+        self.assertEqual(traversal_count('/usr/include/X11/'), 97)
 
     def test_challenge_three(self):
         self.assertEqual(day_of_the_week(
