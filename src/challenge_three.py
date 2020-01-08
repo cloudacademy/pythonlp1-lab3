@@ -12,8 +12,8 @@ def day_of_the_week(dt):
     dt: the datetime
 
     Examples
-    day_of_the_week(datetime(2019, 9, 6, 12, 0, 0)) returns 'Friday'
-    day_of_the_week(datetime(2000, 12, 25, 11, 33, 0)) returns 'Monday'
+    day_of_the_week(datetime(2019, 9, 6, 11, 33, 0)) returns 'Friday'
+    day_of_the_week(datetime(2000, 12, 25, 12, 0, 0)) returns 'Monday'
     '''
 
     # ====================================
