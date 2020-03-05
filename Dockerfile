@@ -1,5 +1,5 @@
 FROM cloudacademydevops/ide:python37
-RUN apk add --update make
+USER root
 WORKDIR /root/lab/
 COPY src ./src
 COPY test ./test
