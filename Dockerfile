@@ -1,4 +1,5 @@
-FROM busybox:1.31.1
+FROM cloudacademydevops/ide:python37
+USER root
 WORKDIR /root/lab/
 COPY src ./src
 COPY test ./test
