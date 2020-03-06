@@ -1,4 +1,4 @@
-FROM cloudacademydevops/ide:python37
+FROM scratch
 USER root
 WORKDIR /root/lab/
 COPY src ./src
