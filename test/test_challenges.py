@@ -4,6 +4,7 @@ import unittest
 from datetime import datetime
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src")
+
 from challenge_three import day_of_the_week
 from challenge_two import traversal_count
 from challenge_one import odds
