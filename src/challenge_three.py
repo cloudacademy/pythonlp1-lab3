@@ -19,13 +19,13 @@ def day_of_the_week(dt):
     # ====================================
     # Do not change the code before this
 
-    # CODE1: Write code that will store the day of the week string in a variable named str
+    # CODE1: Write code that will store the day of the week string in a variable named string
     
 
     # ====================================
     # Do not change the code after this
 
-    return str
+    return string
 
 
 if __name__ == '__main__':
